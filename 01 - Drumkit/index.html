@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Javscript 30 - 1. Drumkit</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h3>Press the below letters in your keyboard to make sound</h3>
+	
+	<!-- Drumkit Elements -->
+	<ul class="drumkit__container">
+		<li data-key="97">
+		A
+		<span>clap</span>
+		</li>
+		<li data-key="115">
+		S
+		<span>boom</span>
+		</li>
+		<li data-key="100">
+		D
+		<span>hithat</span>
+		</li>
+		<li data-key="102">
+		F
+		<span>kick</span>
+		</li>
+		<li data-key="103">
+		G
+		<span>openhat</span>
+		</li>
+		<li data-key="104">
+		H
+		<span>ride</span>
+		</li>
+		<li data-key="106">
+		J
+		<span>snare</span>
+		</li>
+		<li data-key="107">
+		K
+		<span>tink</span>
+		</li>
+		<li data-key="108">
+		L
+		<span>tom</span>
+		</li>
+	</ul>
+
+	
+	<!-- Audio's -->
+	<audio data-audio="97" src="./sounds/clap.wav">clap</audio>
+	<audio data-audio="115" src="./sounds/boom.wav">boom</audio>
+	<audio data-audio="100" src="./sounds/hihat.wav">hihat</audio>
+	<audio data-audio="102" src="./sounds/kick.wav">kick</audio>
+	<audio data-audio="103" src="./sounds/openhat.wav">openhat</audio>
+	<audio data-audio="104" src="./sounds/ride.wav">ride</audio>
+	<audio data-audio="106" src="./sounds/snare.wav">snare</audio>
+	<audio data-audio="107" src="./sounds/tink.wav">tink</audio>
+	<audio data-audio="108" src="./sounds/tom.wav">tom</audio>
+	
+	<!-- JS Files -->
+	<script src="app.js"></script>
+</body>
+</html>
