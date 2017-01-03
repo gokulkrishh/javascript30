@@ -8,6 +8,12 @@ body {
 	box-sizing: border-box;
 }
 
+a {
+	font-size: 35px;
+	display: block;
+	text-align: center;
+}
+
 ul, li {
 	display: flex;
 	justify-content: center;
