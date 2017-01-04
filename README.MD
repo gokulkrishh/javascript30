@@ -3,5 +3,5 @@
 ## Theme
 
 - Write vanilla JS code
-- Lastest browser support (IE 11+ :P)
+- Latest browser support (IE 11+ :P)
 - 1 Chanllege a day
