@@ -4,4 +4,4 @@
 
 - Write vanilla JS code
 - Latest browser support (IE 11+ :P)
-- 1 Chanllege a day
+- One challenge a day
