@@ -1,0 +1,35 @@
+body {
+	line-height: 1.5;
+}
+
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--blur: 1px;
+	--padding: 10px;
+	--background: red;
+}
+
+img {
+	max-width: 50%;
+	background: var(--background);
+	filter: blur(var(--blur));
+	padding: var(--padding);
+  margin: 50px auto;
+  display: block;
+}
+
+.variables__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.variables__container div {
+	margin-left: 50px;
+}
